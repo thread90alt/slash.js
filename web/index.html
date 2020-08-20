@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>slash.js</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<div id="top-bar"></div>
+		<div id="chat" class="box"></div>
+		<div id="chat-field" class="box">
+			<input id="chat-input" placeholder="Type here to chat.">
+			<div id="chat-button" onclick="chatSend()">Send</div>
+		</div>
+		<div id="left-panel" class="box"></div>
+		<div id="right-panel" class="box"></div>
+		<script src="index.js"></script>
+	</body>
+</html>
