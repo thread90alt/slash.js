@@ -1,6 +1,8 @@
 **if you use more than one argument, please use quotes around your text so you will not have any errors**
   (i.e. single_argument, "multiple arguments")
 
+__**to login you must run the command "login (user/bot) (token)"**__
+
 # about
 slash.js is an external discord command-line client
 
