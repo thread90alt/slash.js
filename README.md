@@ -16,6 +16,7 @@ slash.js is an external discord command-line client
 "readline": "^1.3.0",
 "socket.io": "^2.3.0"
 ```
+`removing express and socket.io in next version`
 
 # working on
 - voice channel features
