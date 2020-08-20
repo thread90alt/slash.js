@@ -19,8 +19,6 @@ const commandList = [
 ];
 commandList.forEach(name => require("./commands/" + name + ".js")(context));
 
-require("./website.js")(context);
-
 const step = () => {
 	rl.question("Slash > ", async text => {
 		await context.run(text);
