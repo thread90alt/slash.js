@@ -15,5 +15,9 @@ slash.js is an external discord command-line client
 "socket.io": "^2.3.0"
 ```
 
+# working on
+- web client
+- voice channel features
+
 # questions?
 \_thread90#0090
