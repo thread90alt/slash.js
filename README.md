@@ -19,5 +19,8 @@ slash.js is an external discord command-line client
 - web client
 - voice channel features
 
+# how to run
+node slash.js `or` run the start.bat file
+
 # questions?
 \_thread90#0090
