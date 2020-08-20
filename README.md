@@ -16,7 +16,6 @@ slash.js is an external discord command-line client
 ```
 
 # working on
-- web client
 - voice channel features
 
 # how to run
