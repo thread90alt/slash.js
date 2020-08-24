@@ -3,7 +3,7 @@ const errors = require("../errors.js");
 module.exports = context => {
 	context.commands.push(new Command({
 		name: "membercount",
-		desc: "View all channels the guild has",
+		desc: "View the amount of members in a guild",
     aliases: ["mc", "memcount"],
 		run: async args => {
       if (context.client == null) {
