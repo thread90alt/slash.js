@@ -58,6 +58,9 @@ function isListening(bool) {
 function nullGuilds() {
 	error("No guilds were found on cache.");
 }
+function notEnoughPermissions() {
+	error("You do not have enough permissions");	
+}
 
 module.exports = {
 	error, info, evalError,
@@ -66,5 +69,6 @@ module.exports = {
 	guildNotFound, notLoggedIn, unknownLogin,
 	notInChannel, channelNotFound, notInGuild,
 	foundChannel, emptyMessage, sentMessage,
-	isListening, argsLogin, nullGuilds, 
+	isListening, argsLogin, nullGuilds, notEnoughPermissions,
+	
 };
