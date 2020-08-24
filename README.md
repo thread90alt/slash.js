@@ -19,7 +19,7 @@ slash.js is an external discord command-line client
 `removing express and socket.io in next version`
 
 # working on
-- voice channel features
+- voice channel features - might take a while due to mic capture
 
 # how to run
 node slash.js `or` run the start.bat file
