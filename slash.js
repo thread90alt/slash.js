@@ -13,7 +13,8 @@ const context = new Context(new Config("./config.json"));
 const commandList = [
 	"help", "eval", "login", "guild", "channel",
 	"send", "listen", "guildid", "channelid",
-	"print", "guilds", "channels"
+	"print", "guilds", "channels", "deletemessage",
+	"membercount"
 ];
 commandList.forEach(name => require("./commands/" + name + ".js")(context));
 
