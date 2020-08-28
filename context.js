@@ -10,11 +10,17 @@ module.exports = class Context {
 		config.create("token", null);
 		config.create("guild", null);
 		config.create("listening", true);
+		config.create("security-enabled", false);
+		config.create("security-question", null);
+		config.create("security-answer", null);
 		const type = config.get("type");
 		const token = config.get("token");
 		this.config = config;
 		this.client = null;
 		this.guild = null;
+		this.security = false;
+		this.secQuestion = null;
+		this.secAnswer = null;
 		this.commands = [];
 		if (["bot", "user"].indexOf(type) != -1 && token != null) {
 			if (type == "bot") {
@@ -104,5 +110,3 @@ module.exports = class Context {
 		return await this.execute(items);
 	}
 };
-
-// https://nodejs.org/en/knowledge/command-line/how-to-get-colors-on-the-command-line/
